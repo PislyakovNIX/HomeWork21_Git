@@ -29,5 +29,7 @@ public class TestForHW21 {
         driver.findElement(By.xpath("//textarea[@name='message.text']")).sendKeys("Test message");
         driver.findElement(By.xpath("//button[normalize-space()='Send']")).click();
         driver.quit();
+
+        System.out.println("Code for new commit");
     }
 }
